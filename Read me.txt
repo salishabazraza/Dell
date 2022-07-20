@@ -1,5 +1,11 @@
-1) Import Database .Bak from root folder database Version used MSSQL 2019
-2) Login account details.
+1) Import Database .Bak from root folder database Version used MSSQL 2019.
+2) Project is build in visual studio 2022
+	make sure you have .net 6 sdk and .net core 3.1 install.
+3)Once solution able to load properly. Then in solution property make it run multiple projects.
+	a - DocumentRepository.API
+	b - WebFront.Core
+now project can run successfully. 
+4) Login account details.
 	Email: sali@gmail.com
 	Password: 12345678
 
