@@ -1,0 +1,53 @@
+﻿@using System.Collections.ObjectModel
+@using WebFront.Core.Helper
+@{
+	Layout = null;
+	var result = (APISystemReturnModel<DocumentAPIModel>)ViewBag.result;
+}
+
+<!-- Modal: Support start -->
+
+
+<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">×</span>
+	</button>
+	<h4 class="modal-title" id="myModalLabel2">Document View Detail</h4>
+</div>
+<div class="modal-body modal-text">
+
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+			<br>
+
+			<table class="table table-bordered table-striped table-hover dt-responsive datatable-expand1 datatable-1" cellspacing="0" width="100%">
+				<thead>
+					<tr>
+						<th class="col-md-2">Document Name</th>
+						<th class="col-md-5">Keywords</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>@result.data.document.title</td>
+						@{
+							List<string> li = new List<string>();
+							string AllKeywords = "";
+							foreach (var i in result.data.keywords)
+							{
+								li.Add(i.title);
+							}
+							AllKeywords = string.Join(",", li);
+						}
+						<td>@AllKeywords</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br>
+		</div>
+	</div>
+
+</div>
+
+<!-- Modal: Support end -->

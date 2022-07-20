@@ -1,0 +1,270 @@
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.exe
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.deps.json
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.runtimeconfig.json
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.runtimeconfig.dev.json
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.pdb
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.Views.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.Views.pdb
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.csproj.AssemblyReference.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.AssemblyInfoInputs.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.AssemblyInfo.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.csproj.CoreCompileInputs.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.MvcApplicationPartsAssemblyInfo.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorAssemblyInfo.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorAssemblyInfo.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\staticwebassets\WebFront.Core.StaticWebAssets.Manifest.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.TagHelpers.input.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.TagHelpers.output.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorCoreGenerate.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Documents\Index.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Keywords\Edit.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Keywords\Index.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Keywords\Partial.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Login\login.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\dashboardLayout.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorTargetAssemblyInfo.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorTargetAssemblyInfo.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.Views.pdb
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.csproj.CopyComplete
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.dll
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.pdb
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.genruntimeconfig.cache
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Documents\Partial.cshtml.g.cs
+D:\Demo Dell\WebFront.Core\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Documents\Edit.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.exe
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.deps.json
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.runtimeconfig.json
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.runtimeconfig.dev.json
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.pdb
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.Views.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\WebFront.Core.Views.pdb
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.csproj.AssemblyReference.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.AssemblyInfoInputs.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.AssemblyInfo.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.csproj.CoreCompileInputs.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.MvcApplicationPartsAssemblyInfo.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorAssemblyInfo.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorAssemblyInfo.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\staticwebassets\WebFront.Core.StaticWebAssets.Manifest.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.TagHelpers.input.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.TagHelpers.output.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorCoreGenerate.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Dashboard\Index.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Documents\Edit.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Documents\Index.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Documents\Partial.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Keywords\Edit.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Keywords\Index.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Keywords\Partial.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Login\login.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\dashboardLayout.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorTargetAssemblyInfo.cache
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.RazorTargetAssemblyInfo.cs
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.Views.pdb
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.csproj.CopyComplete
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.dll
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.pdb
+D:\dell\DocumentRepository\DocumentRepository\WebFront.Core\obj\Debug\netcoreapp3.1\WebFront.Core.genruntimeconfig.cache

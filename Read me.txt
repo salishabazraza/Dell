@@ -1,0 +1,6 @@
+1) Import Database .Bak from root folder database Version used MSSQL 2019
+2) Login account details.
+	Email: sali@gmail.com
+	Password: 12345678
+
+

@@ -1,0 +1,143 @@
+﻿@using System.Collections.ObjectModel
+@using WebFront.Core.Helper
+@{
+	/**/
+
+	ViewBag.Title = "Keywords";
+	Layout = "~/Views/Shared/dashboardLayout.cshtml";
+
+	var result = (APISystemReturnModel<ObservableCollection<KeywordsAPIModel>>)ViewBag.result;
+}
+
+<!-- page content -->
+<div class="right_col" role="main">
+	
+     @Html.Raw(@ViewBag.Alert) 
+
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="x_panel">
+				<div class="x_title">
+					<h3>Keywords List</h3>
+					<ul class="nav navbar-right panel_toolbox">
+						<li>
+							<a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+						</li>
+					</ul>
+
+
+					<div class="clearfix"></div>
+					<a href="@Url.Action("Edit","Keywords",new {keywordId=0})" class="btn btn-info btn-xs"><i class="fas fa-edit"></i>Add New Keyword</a>
+
+				</div>
+				<div class="x_content">
+
+					<div class="ln_solid"></div>
+
+					<div>
+						<table class="table table-bordered table-striped table-hover dt-responsive datatable-expand1 datatable-1" cellspacing="0" width="100%">
+							<thead>
+								<tr>
+									<th class="col-md-2">Keyword Title</th>
+									<th class="col-md-2 text-right">Actions</th>
+
+								</tr>
+							</thead>
+							<tbody>
+								@{
+									foreach (var i in result.data)
+									{
+
+
+										<tr>
+
+											<td>@i.keyword.title </td>
+
+											<td class="text-right">
+												<input type="hidden" value="@i.keyword.keywordId" name="keywordId" class="keywordId" />
+												<a href="javascript: void();" class="btntest" data-toggle="modal" data-target=".supported-modal">
+													<i class="fas fa-question-circle"></i>
+												</a>
+												<a href="@Url.Action("Edit","Keywords",new {keywordId=@i.keyword.keywordId})" class="btn btn-info btn-xs"><i class="fas fa-edit"></i></a>
+
+												<a href="@Url.Action("Delete","Keywords" ,new {keywordId=i.keyword.keywordId })" onclick="return confirm('Are you sure?')" class="btn btn-danger btn-xs"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+									}
+								}
+
+							</tbody>
+						</table>
+						<div class="ln_solid"></div>
+						<div class="form-group">
+							<div class="text-right">
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+<!-- /page content -->
+<!-- Modal: Support start -->
+<div class="modal fade supported-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-xs">
+		<div class="modal-content">
+
+
+			<div class="RequestorNameDiv"></div>
+
+		</div>
+	</div>
+</div>
+<!-- Modal: Support end -->
+@section scripts{
+	<script>
+
+		$(document).ready(function() {
+			var table = $('.datatable-1').DataTable({
+				'responsive': true,
+				'paging': true,
+				'info': false,
+				'searching': false,
+
+				//"order": [[1, "desc"]],
+				"columnDefs": [
+					{ "orderable": false, "targets": 0 }
+				]
+			});
+
+			$('.btntest').on('click', function() {
+				var val = $(this).closest("td").find("input[name='keywordId']").val();
+				debugger;
+				$.ajax({
+					url: '@Url.Action("Partial")',
+					type: 'GET',
+					cache: false,
+					data: { keywordId: val }
+				}).done(function(result) {
+					$('.RequestorNameDiv').html(result);
+				});
+
+			});
+
+		});
+
+		window.addEventListener("pageshow", function(event) {
+			var historyTraversal = event.persisted ||
+				(typeof window.performance != "undefined" &&
+					window.performance.navigation.type === 2);
+			if (historyTraversal) {
+				// Handle page restore.
+				window.location.reload();
+			}
+		});
+
+	</script>
+}

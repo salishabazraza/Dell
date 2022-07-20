@@ -1,0 +1,420 @@
+﻿
+  @{
+        var controllerName=((Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor)ViewContext.ActionDescriptor).ControllerName.ToString();
+        var actionName = ((Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor)ViewContext.ActionDescriptor).ActionName.ToString();
+        var controller_action = controllerName + "/" + actionName;
+    }
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="~/images/favico.ico" type="image/ico" />
+
+    <title>@ViewData["Title"] - Dell-Demo</title>
+
+    <!-- Bootstrap -->
+    <link href="~/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Embed Font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/vendors/font-awesome/css/all.css" rel="stylesheet">
+    <!-- Line Awesome -->
+    <link href="~/vendors/line-awesome/css/line-awesome.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Dropzone.js -->
+    <link href="~/vendors/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
+
+    <!-- iCheck -->
+    <link href="~/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="~/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+
+
+    <link href="~/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    @*<link href="~/vendors/google-code-prettify/bin/prettify.min.css" rel="stylesheet">*@
+    <!-- Select2 -->
+    <link href="~/vendors/select2/dist/css/select2.min.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="~/vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- starrr -->
+    <link href="~/vendors/starrr/dist/starrr.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="~/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <!-- bootstrap-datetimepicker -->
+    <link href="~/vendors/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+
+
+
+
+    <!-- Datatables -->
+    <link href="~/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="~/build/css/custom.css" rel="stylesheet">
+
+
+    @RenderSection("CustomHeader", required: false)
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+
+            @*<form data-parsley-validate class="form-horizontal">*@
+
+            <!-- Modal: Delete start -->
+            <div class="modal fade delete-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-xs">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel2">Confirmation</h4>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <i class="fas fa-exclamation-triangle fa-2x col-red"></i>
+                                    <div class="clearfix"></div>
+                                    <h4>Are you confirm to delete?</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"> No</button>
+                            <button type="button" class="btn btn-danger"> Yes</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: Delete end -->
+            <!-- Modal: Support start -->
+            <div class="modal fade support-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-xs">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel2">Support</h4>
+                        </div>
+                        <div class="modal-body modal-text">
+
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <br>
+                                    <p>Kindly email us for any feedback and support.</p>
+                                    <p>Email us: <a href="mailto:abc@abc.com">abc@abc.com</a></p>
+                                    <p>Contact us: 1111-1111111</p>
+
+                                    <br>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: Support end -->
+            <!-- Modal: Change Password start -->
+            <div class="modal fade change-password-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-xs">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel2">Change Password</h4>
+                        </div>
+                        @using (Html.BeginForm("", "", FormMethod.Post, new { @class = "form-horizontal" }))
+                        {
+                            <div class="modal-body modal-text">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-4 col-sm-3 col-xs-12">Old Password<span class="required">*</span></label>
+                                            <div class="col-md-8 col-sm-8 col-xs-12">
+                                                <input type="password" name="password" required class="form-control" placeholder="" value="">
+                                                <input type="hidden" name="verificationCode" class="form-control" placeholder="" value="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-4 col-sm-3 col-xs-12">New Password <span class="required">*</span></label>
+                                            <div class="col-md-8 col-sm-8 col-xs-12">
+                                                <input name="newPassword" id="password1" required type="password" class="form-control" placeholder="" value="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-4 col-sm-3 col-xs-12">Confirm Password <span class="required">*</span></label>
+                                            <div class="col-md-8 col-sm-8 col-xs-12">
+                                                <input type="password" id="password2" required class="form-control" placeholder="" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Save Changes</button>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: Change Password end -->
+            @*</form>*@
+
+            <div class="col-md-3 left_col left_col_home">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="@Url.Action("", "")" class="site_title"><strong class="comname">Dell Demo <br><span class="font-green">System</span></strong></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                               
+
+                                        <li class="@(controllerName == "dashboard" ? "nav-item active current-page" : "")">
+                                            <a href="@Url.Action("index", "dashboard")">  Dashboard </a>
+                                        </li>
+                                         <li class="@(controllerName == "Documents" ? "nav-item active current-page" : "")">
+                                            <a href="@Url.Action("index", "Documents")">  Documents </a>
+                                        </li>
+                                        <li class="@(controllerName == "Keywords" ? "nav-item active current-page" : "")">
+                                            <a href="@Url.Action("index", "Keywords")"> Keywords </a>
+                                        </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav>
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fas fa-bars"></i></a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:void(0);" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+
+                                    <span class=" fas fa-angle-down pr-10"></span><img src="~/images/ico-user.jpg" alt="">
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu pull-right">
+
+
+                                @*    <li><a href="javascript: void();" data-toggle="modal" data-target=".change-password-modal">Change Password</a></li>*@
+                                    <li><a href="@Url.Action("logout","Login")">Log Out</a></li>
+                                </ul>
+                            </li>
+                            <li class="user-sep"></li>
+                            
+                            <li class="">
+                                <a href="javascript:void(0);" data-toggle="modal" data-target=".support-modal">
+                                    <i class="fas fa-question-circle"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+            <!-- page content -->
+
+
+            @RenderBody()
+
+
+            <!-- /page content -->
+            <!-- footer content -->
+            <footer>
+                <div class="pull-left">
+                    @DateTime.Now.Year © Dell Demo
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    
+    <script src="~/vendors/js-random.js"></script>
+    <script src="~/vendors/js-protector-1.0.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        function isNumberKey(txt, evt) {
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode == 46) {
+                //Check if the text already contains the . character
+                if (txt.value.indexOf('.') === -1) {
+                    return true;
+                } else {
+                    return false;
+                }
+            } else {
+                if (charCode > 31 &&
+                    (charCode < 48 || charCode > 57))
+                    return false;
+            }
+            return true;
+        }
+    </script>
+
+    <SCRIPT language=Javascript>
+      <!--
+        function isNumberKeyNum(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+
+            return true;
+        }
+        //-->
+    </SCRIPT>
+
+
+
+    <!-- jQuery -->
+    <script src="~/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/vendors/nprogress/nprogress.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="~/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- Switchery -->
+    <script src="~/vendors/switchery/dist/switchery.min.js"></script>
+    <!-- iCheck -->
+    <script src="~/vendors/iCheck/icheck.min.js"></script>
+
+
+    <!-- bootstrap-daterangepicker -->
+    <script src="~/vendors/moment/min/moment.min.js"></script>
+
+    <script src="~/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- bootstrap-datetimepicker -->
+    <script src="~/vendors/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <!-- bootstrap-wysiwyg -->
+    <script src="~/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="~/vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="~/vendors/google-code-prettify/src/prettify.js"></script>
+
+
+    <!-- Dropzone.js -->
+    <script src="~/vendors/dropzone/dist/min/dropzone.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="~/vendors/datatables.net/js/jquery.dataTables.min.js" ></script>
+    <script src="~/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js" ></script>
+    <script src="~/vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="~/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="~/vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="~/vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="~/vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="~/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <script src="~/vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+    <script src="~/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="~/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+    <script src="~/vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+    <script src="~/vendors/jszip/dist/jszip.min.js"></script>
+
+
+    @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+        //<![CDATA[
+ 
+
+            var password = document.getElementById("password1")
+                , confirm_password = document.getElementById("password2");
+
+
+
+
+
+            function validatePassword() {
+
+                var email = new RegExp(/(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{6,50}/);
+
+                var d_ = email.test(password.value);
+                debugger;
+
+                if (email.test(password.value)) {
+                    password.setCustomValidity('');
+                } else {
+                    password.setCustomValidity("Password requires at least 1 lower case character, 1 upper case character, 1 number, 1 special character and must be at least 6 characters and at most 50");
+
+                }
+
+
+                if (password.value != confirm_password.value) {
+                    confirm_password.setCustomValidity("Passwords Don't Match");
+                } else {
+                    confirm_password.setCustomValidity('');
+                }
+            }
+
+            password.onchange = validatePassword;
+            confirm_password.onkeyup = validatePassword;
+
+
+
+
+
+
+
+
+
+            // Handle click on "Expand All" button
+            $('#btn-show-all-children').on('click', function () {
+                // Expand row details
+                table.rows(':not(.parent)').nodes().to$().find('td:first-child').trigger('click');
+            });
+
+            // Handle click on "Collapse All" button
+            $('#btn-hide-all-children').on('click', function () {
+                // Collapse row details
+                table.rows('.parent').nodes().to$().find('td:first-child').trigger('click');
+            });
+        
+
+        //]]></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="~/build/js/custom.js"></script>
+
+</body>
+</html>

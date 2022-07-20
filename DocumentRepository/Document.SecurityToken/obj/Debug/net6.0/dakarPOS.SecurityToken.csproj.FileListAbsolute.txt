@@ -1,0 +1,15 @@
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\bin\Debug\net6.0\dakarPOS.SecurityToken.deps.json
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\bin\Debug\net6.0\dakarPOS.SecurityToken.dll
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\bin\Debug\net6.0\dakarPOS.SecurityToken.pdb
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\bin\Debug\net6.0\dakarPOS.Shared.dll
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\bin\Debug\net6.0\dakarPOS.Shared.pdb
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.csproj.AssemblyReference.cache
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.AssemblyInfoInputs.cache
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.AssemblyInfo.cs
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.csproj.CoreCompileInputs.cache
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.csproj.CopyComplete
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.dll
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\refint\dakarPOS.SecurityToken.dll
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\dakarPOS.SecurityToken.pdb
+D:\CodeBase\GitHub\POS\dakarPOS\dakarPOS.SecurityToken\obj\Debug\net6.0\ref\dakarPOS.SecurityToken.dll

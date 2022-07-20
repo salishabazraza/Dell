@@ -1,0 +1,211 @@
+﻿@using System.Collections.ObjectModel
+@using WebFront.Core.Helper
+@{
+	/**/
+
+	ViewBag.Title = "Documents";
+	Layout = "~/Views/Shared/dashboardLayout.cshtml";
+	var Keywords = (APISystemReturnModel<ObservableCollection<KeywordsAPIModel>>)ViewBag.Keywords;
+	var result= (APISystemReturnModel<ObservableCollection<DocumentAPIModel>>)ViewBag.result;
+	var keywordIdSearch = (int[])ViewBag.keywordIdSearch;
+}
+@section CustomHeader{
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+}
+<!-- page content -->
+<div class="right_col" role="main">
+	
+     @Html.Raw(@ViewBag.Alert) 
+
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="x_panel">
+				<div class="x_title">
+					<h3>Documents List</h3>
+					<ul class="nav navbar-right panel_toolbox">
+						<li>
+							<a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+						</li>
+					</ul>
+
+
+					<div class="clearfix"></div>
+
+				</div>
+				<div class="x_content">
+
+					@using (Html.BeginForm("index", "documents", FormMethod.Get, null))
+                        {
+                            <div class="mb-20">
+                                <div class="row">
+                                
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-10">
+                                        <div class="form-group">
+                                            <label class="control-label col-lg-12 col-md-12 col-sm-12 col-xs-12 ">Document Name</label>
+                                            <div class="clearfix"></div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                            
+												<select class="js-example-basic-multiple form-control" name="keywordId" multiple="multiple">
+															@{
+																List<int> ids = new List<int>();
+																foreach (var i in keywordIdSearch)
+																{
+																	ids.Add(i);
+																}
+
+																foreach (var i in Keywords.data)
+																{
+																	if (ids.Contains(i.keyword.keywordId))
+																	{
+																			<option selected value="@i.keyword.keywordId">@i.keyword.title</option>
+																	}else
+																	{
+																			<option value="@i.keyword.keywordId">@i.keyword.title</option>
+																	}
+																	
+																}
+															}
+
+														</select>
+											
+											</div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+
+                                    
+                                </div>
+
+                                <div class="row text-right">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 mt-10">
+                                                <button type="submit" class="btn btn-primary">Search</button>
+                                                @*<button type="button" class="btn btn-success" onclick="window.location.href='javascript:void();'">Export</button>*@
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <div class="ln_solid"></div>
+
+					<div>
+						<table class="table table-bordered table-striped table-hover dt-responsive datatable-expand1 datatable-1" cellspacing="0" width="100%">
+							<thead>
+								<tr>
+									<th class="col-md-2">Document Name</th>
+									<th class="col-md-5">Url</th>
+									<th class="col-md-2 text-right">Actions</th>
+
+								</tr>
+							</thead>
+							<tbody>
+								@{
+									foreach (var i in result.data)
+									{
+										
+									
+										<tr>
+
+											<td>@i.document.title </td>
+											<td><a href="@i.document.docURL" target="_self">@i.document.docURL</a></td>
+
+											<td class="text-right">
+											<input type="hidden" value="@i.document.documentId" name="documentId" class="documentId" />
+											<a href="javascript: void();" class="btntest" data-toggle="modal" data-target=".supported-modal">
+													<i class="fas fa-question-circle"></i>
+												</a>
+												<a href="@Url.Action("Edit","Documents",new {documentId=i.document.documentId,documentName=i.document.title})" class="btn btn-info btn-xs"><i class="fas fa-edit"></i></a>
+											</td>
+										</tr>
+									}
+								}
+
+							</tbody>
+						</table>
+						<div class="ln_solid"></div>
+						<div class="form-group">
+							<div class="text-right">
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+<!-- /page content -->
+
+<!-- Modal: Support start -->
+<div class="modal fade supported-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-xs">
+		<div class="modal-content">
+
+
+			<div class="RequestorNameDiv"></div>
+
+		</div>
+	</div>
+</div>
+<!-- Modal: Support end -->
+@section scripts{
+	<script>
+
+		$(document).ready(function() {
+			var table = $('.datatable-1').DataTable({
+				'responsive': true,
+				'paging': true,
+				'info': false,
+				'searching': false,
+
+				//"order": [[1, "desc"]],
+				"columnDefs": [
+					{ "orderable": false, "targets": 0 }
+				]
+			});
+
+			$('.btntest').on('click', function() {
+				var val = $(this).closest("td").find("input[name='documentId']").val();
+				debugger;
+				$.ajax({
+					url: '@Url.Action("Partial")',
+					type: 'GET',
+					cache: false,
+					  data: { documentId: val }
+				}).done(function(result) {
+					$('.RequestorNameDiv').html(result);
+				});
+
+			});
+
+		});
+
+		window.addEventListener("pageshow", function(event) {
+			var historyTraversal = event.persisted ||
+				(typeof window.performance != "undefined" &&
+					window.performance.navigation.type === 2);
+			if (historyTraversal) {
+				// Handle page restore.
+				window.location.reload();
+			}
+		});
+
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.js-example-basic-multiple').select2();
+		});
+
+	
+
+	</script>
+
+}

@@ -1,0 +1,7 @@
+D:\CodeBase\DocumentRepository\DocumentRepository\DocumentRepository\obj\Debug\net6.0\DocumentRepository.csproj.AssemblyReference.cache
+D:\CodeBase\DocumentRepository\DocumentRepository\DocumentRepository\obj\Debug\net6.0\DocumentRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeBase\DocumentRepository\DocumentRepository\DocumentRepository\obj\Debug\net6.0\DocumentRepository.AssemblyInfoInputs.cache
+D:\CodeBase\DocumentRepository\DocumentRepository\DocumentRepository\obj\Debug\net6.0\DocumentRepository.AssemblyInfo.cs
+D:\CodeBase\DocumentRepository\DocumentRepository\DocumentRepository\obj\Debug\net6.0\DocumentRepository.csproj.CoreCompileInputs.cache
+D:\CodeBase\DocumentRepository\DocumentRepository\DocumentRepository\obj\Debug\net6.0\DocumentRepository.MvcApplicationPartsAssemblyInfo.cs
+D:\CodeBase\DocumentRepository\DocumentRepository\DocumentRepository\obj\Debug\net6.0\DocumentRepository.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\DocumentRepository\\DocumentRepository.csproj": {}
+  },
+  "projects": {
+    "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\Document.SecurityToken\\Document.SecurityToken.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\Document.SecurityToken\\Document.SecurityToken.csproj",
+        "projectName": "Document.SecurityToken",
+        "projectPath": "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\Document.SecurityToken\\Document.SecurityToken.csproj",
+        "packagesPath": "C:\\Users\\attar\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\Document.SecurityToken\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\attar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\DocumentRepository\\DocumentRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\DocumentRepository\\DocumentRepository.csproj",
+        "projectName": "DocumentRepository",
+        "projectPath": "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\DocumentRepository\\DocumentRepository.csproj",
+        "packagesPath": "C:\\Users\\attar\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\DocumentRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\attar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\Document.SecurityToken\\Document.SecurityToken.csproj": {
+                "projectPath": "D:\\CodeBase\\DocumentRepository\\DocumentRepository\\Document.SecurityToken\\Document.SecurityToken.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
